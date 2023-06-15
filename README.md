@@ -25,3 +25,7 @@ https://www.youtube.com/watch?v=1uJttCNfjLA&list=TLPQMTUwNjIwMjOD4DZFD-VJkw&inde
   - Verifique se o código de barras é válido e está presente no banco de dados.
   - Se o código de barras não for válido ou não estiver no banco de dados, exiba uma mensagem de erro adequada ao usuário.
 - Fim do algoritmo
+
+#### Autenticação
+
+https://isbnsearch.org/isbn/9786555521689
