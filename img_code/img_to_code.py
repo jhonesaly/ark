@@ -13,3 +13,21 @@ def processar_imagem(imagem):
 
     # Retorne a imagem processada
     return imagem
+
+# teste local
+if __name__ == "__main__":
+
+    # Carregue a imagem capturada do código de barras
+    imagem = cv2.imread(r"C:\Users\Cougar_Gamer\Documents\GitHub\ark\img_code\raw_image.jpg")
+
+    # Chame a função de processamento de imagem
+    imagem_processada = processar_imagem(imagem)
+
+    # Redimensione a janela de exibição
+    cv2.namedWindow("Imagem Processada", cv2.WINDOW_NORMAL)
+    cv2.resizeWindow("Imagem Processada", 800, 600)
+
+    # Exiba a imagem original e a imagem processada para comparação (opcional)
+    cv2.imshow("Imagem Processada", imagem_processada)
+    cv2.waitKey(0)
+    cv2.destroyAllWindows()
