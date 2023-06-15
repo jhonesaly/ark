@@ -25,7 +25,7 @@ if __name__ == "__main__":
 
     # Redimensione a janela de exibição
     cv2.namedWindow("Imagem Processada", cv2.WINDOW_NORMAL)
-    cv2.resizeWindow("Imagem Processada", 800, 600)
+    cv2.resizeWindow("Imagem Processada", 960, 540)
 
     # Exiba a imagem original e a imagem processada para comparação (opcional)
     cv2.imshow("Imagem Processada", imagem_processada)
